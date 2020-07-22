@@ -5,7 +5,7 @@
         <ion-list id="inbox-list">
           <ion-list-header>Inbox</ion-list-header>
           <ion-note>contact@hiffigroup.com</ion-note>
-          <ion-text>Prueba para git</ion-text>
+          <ion-text>Prueba para git version 2 mejorada </ion-text>
 
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
             <ion-item (click)="selectedIndex = i" routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" [class.selected]="selectedIndex == i">
