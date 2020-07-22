@@ -1,0 +1,7 @@
+{
+  "name": "HiFFiApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
